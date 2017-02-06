@@ -21,4 +21,6 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
+Image used for background in part 1 is by <a href="http://www.freepik.com/free-photo/marble-building-concrete-grey-slab_1040066.htm">Designed by Freepik</a> Fix this later
+
 
