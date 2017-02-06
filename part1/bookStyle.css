@@ -1,10 +1,42 @@
-body {
-   background: black;  
-/*background-image: url(308.jpg); */
+/*
+Font creator is 
+S. John Ross
+Cumberland Games & Diversions
+www.cumberlandgames.com
+*/
+@font-face {
+    font-family: engravedFont;
+    src: url(Hultog_Engraved.ttf);
 }
 
-.H1{
-  font-style: italic;
-  color: red;
+body {  
+  background-image: url(308.jpg); 
+}
+
+H1{
+  font-family: engravedFont;
+  font-style: italic; 
+  font-size: 500%;
 
 }
+
+/*
+code for scroll  and opacity based on
+w3schools example:
+http://www.w3schools.com/cssref/tryit.asp?filename=trycss_overflow
+http://www.w3schools.com/css/css_image_transparency.asp
+*/
+pre{
+  background-color: white;
+  opacity: 0.5;
+  width: 50%;
+  height: 100px;
+  overflow: scroll;
+  margin: auto;
+}
+
+pre:hover{
+  opacity: 1;
+}
+
+
