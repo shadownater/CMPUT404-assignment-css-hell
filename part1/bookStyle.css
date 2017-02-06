@@ -1,5 +1,6 @@
-.body {
-  background-image: url(308.jpg);
+body {
+   background: black;  
+/*background-image: url(308.jpg); */
 }
 
 .H1{
