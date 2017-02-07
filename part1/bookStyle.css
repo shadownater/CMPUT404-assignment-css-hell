@@ -10,7 +10,8 @@ www.cumberlandgames.com
 }
 
 body {  
-  background-image: url(308.jpg); 
+  background-image: url(308.jpg);
+  background-attachment: fixed; 
 }
 
 H1{
@@ -28,6 +29,7 @@ http://www.w3schools.com/css/css_image_transparency.asp
 */
 pre{
   background-color: white;
+  border-style: dotted;
   opacity: 0.5;
   width: 50%;
   height: 100px;
@@ -39,4 +41,15 @@ pre:hover{
   opacity: 1;
 }
 
+table{
+  margin: auto;
+  background-color: white;
+  border-style: solid;
+  border-radius: 5%;
+  padding: 1%;
+}
+
+H2, H3, H4{
+  font-style: italic;
+}
 
