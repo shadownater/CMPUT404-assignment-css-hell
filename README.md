@@ -30,6 +30,11 @@ A TrueType Font by S. John Ross
 Cumberland Games & Diversions
 www.cumberlandgames.com
 
-Altered dracula and alice by adding align=center to h1.
+Altered dracula by adding align=center to h1.
+Learned later I didn't need to do that. Oh well.
+
+Removed some comments from the alice file that were showing up on the html page.
+
+Had to modify one of alice's image names because both dracula and alice had the same cover.jpg.
 
 
