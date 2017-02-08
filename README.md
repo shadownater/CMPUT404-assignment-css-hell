@@ -37,4 +37,4 @@ Removed some comments from the alice file that were showing up on the html page.
 
 Had to modify one of alice's image names because both dracula and alice had the same cover.jpg.
 
-
+Mostly cited W3schools for the majority of my css.
