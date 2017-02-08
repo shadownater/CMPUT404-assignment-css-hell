@@ -18,6 +18,8 @@ H1{
   font-family: engravedFont;
   font-style: italic; 
   font-size: 500%;
+  color: black;
+  text-align: center;
 
 }
 
@@ -35,6 +37,7 @@ pre{
   height: 100px;
   overflow: scroll;
   margin: auto;
+  text-align: center;
 }
 
 pre:hover{
@@ -51,5 +54,43 @@ table{
 
 H2, H3, H4{
   font-style: italic;
+  text-align: center;
 }
 
+/*
+  From http://www.w3schools.com/cssref/sel_firstletter.asp
+*/
+p:first-letter{
+  font-family: engravedFont;
+  font-size: 200%;
+}
+
+p.c{
+ text-align: center;
+ font-style:italic;
+  
+}
+p.c:first-letter{
+  font-family:unset;
+  font-size: 100%;
+}
+
+p.cb{
+  visibility: hidden;
+}
+
+.figcenter{
+  text-align:center;
+}
+
+.figright{
+  text-align:center;
+  float: right;
+  padding: 1%;
+}
+
+.figleft{
+  text-align: center;
+  float: left;
+  padding: 1%;
+}
