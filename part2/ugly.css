@@ -1,0 +1,78 @@
+img{
+  position:absolute;
+  right: 0%;
+  -webkit-animation: spin 4s infinite linear;
+  }
+
+
+.myStuff{
+  -webkit-animation: zoom 8s infinite ease;
+}
+
+.info{
+  text-align:center;
+  font-family: "Comic Sans MS";
+  -webkit-animation: spin 6s infinite ease;
+  /*-webkit-animation: zoom 8s infinite ease;*/
+}
+
+
+/*
+  spin animation help from our lab
+  as well as from Gaby aka G. Petrioli and 
+  Jezen Thomas on StackOverflow:
+  http://stackoverflow.com/users/128165/gaby-aka-g-petrioli
+  http://stackoverflow.com/users/704015/jezen-thomas
+  http://stackoverflow.com/questions/14859322/css3-spin-animation
+*/
+
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg);
+         }
+    to { -moz-transform: rotate(360deg);
+       }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg);
+         }
+    to { -webkit-transform: rotate(360deg); 
+       }
+}
+@keyframes spin {
+    from {transform:rotate(0deg);
+         }
+    to {transform:rotate(360deg);
+       }
+}
+
+
+
+@keyframes zoom {
+    from {transform:scale(0);}
+    to {transform:scale(20);}
+}
+
+h1{
+  text-align:center;
+  font-family: "Times New Roman";
+  font-style: italic;
+  color: yellow;
+}
+
+body{
+  background-color: aliceBlue; 
+  -webkit-animation: bgChanger 4s infinite linear;
+}
+
+/*Credit to W3Schools for\
+  animating backgrounds and in steps:
+  http://www.w3schools.com/css/css3_animations.asp
+*/
+@keyframes bgChanger {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+
