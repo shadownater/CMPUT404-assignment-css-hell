@@ -76,3 +76,12 @@ body{
 }
 
 
+.links{
+  text-align:center;
+}
+
+table{
+  border: 1% pink;
+  border-style: solid double outset dotted;
+}
+
