@@ -1,19 +1,19 @@
 img{
   position:absolute;
   right: 0%;
-  -webkit-animation: spin 4s infinite linear;
+  -webkit-animation: spin 12s infinite linear alternate;
   }
 
 
 .myStuff{
-  -webkit-animation: zoom 8s infinite ease;
+  -webkit-animation: zoom 20s infinite linear alternate;
 }
 
 .info{
   text-align:center;
   font-family: "Comic Sans MS";
-  -webkit-animation: spin 6s infinite ease;
-  /*-webkit-animation: zoom 8s infinite ease;*/
+  color: #39FF14;
+  -webkit-animation: spin 18s infinite linear alternate;
 }
 
 
@@ -61,8 +61,10 @@ h1{
 
 body{
   background-color: aliceBlue; 
-  -webkit-animation: bgChanger 4s infinite linear;
+  -webkit-animation: bgChanger 14s infinite linear;
 }
+
+
 
 /*Credit to W3Schools for\
   animating backgrounds and in steps:
@@ -75,13 +77,18 @@ body{
     100% {background-color: green;}
 }
 
-
 .links{
   text-align:center;
+  font-family: "Impact";
+  font-size: 30px;
 }
 
-table{
-  border: 1% pink;
-  border-style: solid double outset dotted;
+a:active{
+  color: hotpink;
 }
+
+a:visited{
+  color:blue;
+}
+
 
