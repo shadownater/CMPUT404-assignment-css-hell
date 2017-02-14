@@ -4,16 +4,22 @@ img{
   -webkit-animation: spin 12s infinite linear alternate;
   }
 
+img.birb{
+ position: relative;
+  left 0%;
+}
+
+
 
 .myStuff{
-  -webkit-animation: zoom 20s infinite linear alternate;
+  -webkit-animation: zoom 14s infinite linear alternate;
 }
 
 .info{
   text-align:center;
   font-family: "Comic Sans MS";
   color: #39FF14;
-  -webkit-animation: spin 18s infinite linear alternate;
+  -webkit-animation: spin 13s infinite linear alternate;
 }
 
 
@@ -52,6 +58,28 @@ img{
     to {transform:scale(20);}
 }
 
+
+@-moz-keyframes leftRight {
+    0%{ -moz-transform: translateX(20%);
+         }
+    100% { -moz-transform: translateX(80%);
+       }
+}
+@-webkit-keyframes leftRight {
+    0% { -webkit-transform: translateX(20%);
+         }
+    100% { -webkit-transform: translateX(80%); 
+       }
+}
+@keyframes leftRight {
+    0% {transform: translateX(20%%);
+         }
+    100% {transform: translateX(80%);
+       }
+}
+
+
+
 h1{
   text-align:center;
   font-family: "Times New Roman";
@@ -59,9 +87,12 @@ h1{
   color: yellow;
 }
 
+/*
+Background from: http://tumblr.tastefullyoffensive.com/post/156734380768/candidates-for-teacher-of-the-year-via Originally from yeti_father on reddit.
+*/
 body{
-  background-color: aliceBlue; 
-  -webkit-animation: bgChanger 14s infinite linear;
+  background-image: url("http://68.media.tumblr.com/c0388d558705a8a659d809a1304fa39b/tumblr_okru9gJHJ91qewacoo2_400.jpg"); 
+  background-color: aliceBlue;
 }
 
 
@@ -70,25 +101,25 @@ body{
   animating backgrounds and in steps:
   http://www.w3schools.com/css/css3_animations.asp
 */
-@keyframes bgChanger {
-    0%   {background-color: red;}
-    25%  {background-color: yellow;}
-    50%  {background-color: blue;}
-    100% {background-color: green;}
-}
+
 
 .links{
+  border:10px dashed orange;
+  width: 50%;
   text-align:center;
   font-family: "Impact";
   font-size: 30px;
+  -webkit-animation: leftRight 10s infinite linear alternate;
 }
 
-a:active{
+a{
   color: hotpink;
+text-decoration: none;
 }
 
 a:visited{
-  color:blue;
+  color:red;
+  text-decoration: none;
 }
 
 
