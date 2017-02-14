@@ -1,0 +1,28 @@
+/*
+  NOTE TO SELF
+  copy the good html over to the bad html because changes are happening!
+*/
+
+.photo{
+  position: absolute;
+  top: 0%;
+  left: 80%;
+  margin-left: -250px; /* Half the width */
+  clip: rect(10px,600px,450px,0px);
+  z-index: 3;
+
+}
+
+.sky{
+  position: absolute;
+  top:0%;
+  clip: rect(10px,1400px,350px,0px);
+  z-index: 1;
+}
+
+#who{
+  color:red;
+  font-size: 400%;
+  text-alignment: left;
+  z-index: 3;
+}
