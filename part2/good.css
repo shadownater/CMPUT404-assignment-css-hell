@@ -3,26 +3,53 @@
   copy the good html over to the bad html because changes are happening!
 */
 
+.theBirbs{
+  visibility: hidden;
+}
+
+#line1{
+  position: absolute;
+  width: 100%;
+  top: 30em;
+  border: solid black 2em;
+  z-index: 5;
+}
+
+.info1{
+  border: dashed black 30px;
+}
+
+.myStuff{
+  position: absolute;
+  top: 33em;
+}
+
 .photo{
   position: absolute;
-  top: 0%;
-  left: 80%;
-  margin-left: -250px; /* Half the width */
-  clip: rect(10px,600px,450px,0px);
-  z-index: 3;
-
+  height: 30em;
+  width: 35em;
+  left:50em;
+  top: 1em;
+  border: solid black 10px;
+  overflow: hidden;
+  z-index: 1;
 }
 
 .sky{
   position: absolute;
-  top:0%;
-  clip: rect(10px,1400px,350px,0px);
-  z-index: 1;
+  height: 31em;
+  top: 1em;
+  width: 50em;
+  overflow:hidden;
 }
 
 #who{
-  color:red;
-  font-size: 400%;
+  position:absolute;
+  top: 2.7em;
+  left: 0.5em;
+  color:white;
+  font-size: 700%;
   text-alignment: left;
-  z-index: 3;
+  z-index: 1;
 }
+
