@@ -9,19 +9,56 @@
 
 #line1{
   position: absolute;
-  width: 100%;
-  top: 30em;
-  border: solid black 2em;
+  width: 85.8em;
+  top: 31em;
+  border: solid black 1.6em;
   z-index: 5;
 }
 
-.info1{
-  border: dashed black 30px;
+.info1, .info2, .info3, .info4{
+  /*border: solid grey 3px;*/
+  width: 60em;
+  padding: 1em;
+}
+
+#history, #offer, #important_info{
+  background-color: pink;
+  font-size: 2.6em;
+  padding-left: 0.5em;
+  padding-right: 1em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
 }
 
 .myStuff{
   position: absolute;
-  top: 33em;
+  top: 36em;
+  border: solid black 5px;
+}
+
+.sidebar{
+  position:absolute;
+  border: solid black 5px;
+  top: 36em;
+  left: 64em;
+  padding: 3em;
+  width: 15%;
+  height: 80%;
+
+}
+
+.links{
+  position:absolute;
+  border: solid black 5px;
+  top: 68.8em;
+  left: 64em;
+  padding: 3em;
+  width: 15%;
+  height: 80%;
+}
+
+#Who_bar, #History_bar, #Offer_bar, #Important_bar{
+  text-align: center;
 }
 
 .photo{
