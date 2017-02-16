@@ -1,3 +1,8 @@
+.sky{
+  visibility: hidden;
+}
+
+
 img{
   position:absolute;
   right: 0%;
@@ -9,13 +14,19 @@ img.birb{
   left 0%;
 }
 
+#line1{
+  display: none;
+}
 
+.sidebar{
+  visibility: hidden;
+}
 
-.myStuff{
+.myStuff, #who{
   -webkit-animation: zoom 14s infinite linear alternate;
 }
 
-.info{
+.info1, .info2, .info3, .info4{
   text-align:center;
   font-family: "Comic Sans MS";
   color: #39FF14;
