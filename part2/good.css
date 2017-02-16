@@ -49,9 +49,13 @@ body{
 }
 
 .info1, .info2, .info3, .info4{
-  /*border: solid grey 3px;*/
+  /*border: solid 3px;*/
   width: 70em;
-  padding: 1em;
+  padding-left: 1em;
+}
+
+.info1{
+  padding-top: 1.5em;
 }
 
 /*
@@ -98,19 +102,57 @@ https://www.w3schools.com/css/css3_gradients.asp
   padding-bottom: 0.25em;
 }
 
+
+
 .sidebar{
+  font-weight: bold;
+  line-height: 2em;
+  font-size: 1.2em;
   position:absolute;
   border: solid skyblue 5px;
-  top: 36em;
-  left: 77.2em;
-  padding: 3em;
+  top: 30em;
+  left: 64.35em;
+  padding: 1.5em;
   width: 12.5em;
-  height: 28em;
+  height: 24em;
+  /*background-color: white;*/
+  z-index: 3;
+}
+
+.sidebar_inner{
   background-color: white;
+  line-height: 2em;
+  font-size: 1.2em;
+  position:absolute;
+  top: 32em;
+  left: 65.9em;
+  padding: 1.5em;
+  width: 10em;
+  height: 20em;
+  z-index: 2;
+}
+
+.sidebar_outer{
+  background-color: skyblue;
+  background: -webkit-linear-gradient(skyblue, white); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(skyblue, white); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(skyblue, white); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(skyblue, white); /* Standard syntax */
+  font-weight: bold;
+  line-height: 2em;
+  font-size: 1.2em;
+  position:absolute;
+  border: solid skyblue 5px;
+  top: 30em;
+  left: 64.35em;
+  padding: 1.5em;
+  width: 12.5em;
+  height: 24em;
+  z-index: 1;
 }
 
 a:visited{
-  color: darkblue;
+  color: black;
 }
 
 
@@ -125,9 +167,19 @@ a:visited{
   text-align: center;
 }
 
+/*
+CSS centering from 太極者無極而生
+on StackOverFlow
+http://stackoverflow.com/users/325418/%e5%a4%aa%e6%a5%b5%e8%80%85%e7%84%a1%e6%a5%b5%e8%80%8c%e7%94%9f
+http://stackoverflow.com/questions/5703552/css-center-text-horizontal-and-vertical-inside-a-div-block
+*/
 #Who_bar, #History_bar, #Offer_bar, #Important_bar{
+  position: relative;
   text-align: center;
+  vertical-align:middle;
+  line-height:90px;
 }
+
 
 .photo{
   position: absolute;
