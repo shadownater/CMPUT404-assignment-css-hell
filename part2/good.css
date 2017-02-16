@@ -7,54 +7,122 @@
   visibility: hidden;
 }
 
+/*
+Font Larch_x is made by  
+Måns Grebäck 
+http://www.dafont.com/mans-greback.d2878
+*/
+@font-face {
+    font-family: larch;
+    src: url(DarkLarch_PERSONAL_USE.ttf);
+}
+
+@font-face {
+    font-family: larch_b;
+    src: url(BrightLarch_PERSONAL_USE.ttf);
+}
+/*
+Covering background image info from
+Vashishtha Jogi and Peter Mortensen
+on StackOverflow
+http://stackoverflow.com/users/462216/vashishtha-jogi
+http://stackoverflow.com/users/63550/peter-mortensen
+http://stackoverflow.com/questions/1150163/stretch-and-scale-a-css-image-in-the-background-with-css-only
+
+Background credit: Freepik
+<a href="http://www.freepik.com/free-vector/abstract-blue-background_859016.htm">Designed by Freepik</a>
+*/
+body{
+  background-image: url("images/blue.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover
+}
+
 #line1{
   position: absolute;
-  width: 85.8em;
+  width: 93.25em;
   top: 31em;
+  left: 3em;
   border: solid black 1.6em;
   z-index: 5;
 }
 
 .info1, .info2, .info3, .info4{
   /*border: solid grey 3px;*/
-  width: 60em;
+  width: 70em;
   padding: 1em;
 }
 
+/*
+Gradient CSS code from
+W3Schools
+https://www.w3schools.com/css/css3_gradients.asp
+*/
 #history, #offer, #important_info{
-  background-color: pink;
-  font-size: 2.6em;
+  font-family: larch_b;
+  background-color: skyblue;
+  background: -webkit-linear-gradient(left, skyblue, white); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, skyblue, white); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, skyblue, white); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, skyblue, white); /* Standard syntax */
+  font-size: 4em;
   padding-left: 0.5em;
   padding-right: 1em;
   padding-top: 0.25em;
-  padding-bottom: 0.25em;
+  padding-bottom: 0.18em;
 }
 
 .myStuff{
   position: absolute;
-  top: 36em;
-  border: solid black 5px;
+  top: 34em;
+  left: 3em;
+  padding-bottom: 2.8em;
+  padding-top: 0.5em;
+  border: solid lightskyblue 5px;
+  background-color: white;
+}
+
+#link2{
+  display: none;
+}
+
+#important_links{
+  font-family: larch_b;
+  background-color: skyblue;
+  background: -webkit-linear-gradient(left, skyblue, white); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, skyblue, white); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, skyblue, white); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, skyblue, white); /* Standard syntax */
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
 }
 
 .sidebar{
   position:absolute;
-  border: solid black 5px;
+  border: solid skyblue 5px;
   top: 36em;
-  left: 64em;
+  left: 77.2em;
   padding: 3em;
-  width: 15%;
-  height: 80%;
-
+  width: 12.5em;
+  height: 28em;
+  background-color: white;
 }
+
+a:visited{
+  color: darkblue;
+}
+
 
 .links{
   position:absolute;
-  border: solid black 5px;
-  top: 68.8em;
-  left: 64em;
-  padding: 3em;
-  width: 15%;
-  height: 80%;
+  border: solid skyblue 5px;
+  top: 72em;
+  left: 77.2em;
+  background-color: white;
+  width: 18.5em;
+  height: 12em;
+  text-align: center;
 }
 
 #Who_bar, #History_bar, #Offer_bar, #Important_bar{
@@ -65,7 +133,7 @@
   position: absolute;
   height: 30em;
   width: 35em;
-  left:50em;
+  left:60em;
   top: 1em;
   border: solid black 10px;
   overflow: hidden;
@@ -76,16 +144,18 @@
   position: absolute;
   height: 31em;
   top: 1em;
-  width: 50em;
+  width: 60em;
   overflow:hidden;
+  left: 3em;
 }
 
 #who{
+  font-family: larch_b;
   position:absolute;
-  top: 2.7em;
+  top: 1.35em;
   left: 0.5em;
   color:white;
-  font-size: 700%;
+  font-size: 1100%;
   text-alignment: left;
   z-index: 1;
 }
