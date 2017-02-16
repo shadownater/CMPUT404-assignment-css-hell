@@ -84,4 +84,4 @@ Credit to W3Schools for
 animating backgrounds and in steps:
 http://www.w3schools.com/css/css3_animations.asp
 
-
+Consulted with Nicole Lovas on minor CSS issues.
